@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FrondEnd Automation]">
+  <test thread-count="5" name="/Users/elvinabegimbaeva/TestNG(failed)">
+    <parameter name="password" value="123pass"/>
+    <parameter name="userName" value="MikeSmith"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.company.Parametrization">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.company.Parametrization -->
+    </classes>
+  </test> <!-- /Users/elvinabegimbaeva/TestNG(failed) -->
+</suite> <!-- Failed suite [FrondEnd Automation] -->

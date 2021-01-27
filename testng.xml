@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FrondEnd Automation">
+
+<groups>
+    <run>
+        <include name="smoke">
+
+        </include>
+    </run>
+</groups>
+    <test verbose="2" preserve-order="true" name="/Users/elvinabegimbaeva/TestNG">
+
+        <parameter name="userName" value="MikeSmith"></parameter>
+        <parameter name="password" value="123pass"></parameter>
+
+        <classes>
+
+            <!--specify the class path/location
+
+
+            <class name="com.company.TestCase1"></class>
+            <class name="com.company.TestCase3"></class>
+            <class name="com.company.TestCase"></class>
+            <class name="com.company.DepenonMethods"></class>
+            -->
+
+
+            <class name="com.company.Parametrization"></class>
+
+
+
+        </classes>
+
+    </test>
+</suite>
